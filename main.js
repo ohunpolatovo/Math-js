@@ -61,10 +61,14 @@
 //console.log("kun boshidan boshlab  " + natija + "  minut otdi");
 
 //Integer8. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha to'la soat o`tganligini aniqlovchi programma tuzilsin.
-let N = +prompt("Sekundni kiriting");
-let natija = Math.trunc(N / 3600);
-console.log(natija);
+//let N = +prompt("Sekundni kiriting");
+//let natija = Math.trunc(N / 3600);
+//console.log(natija);
 
 //Integer9. Kun boshidan boshlab N sekund vaqt o`tti. Kun boshidan boshlab qancha minut va sekund o'tganini aniqlovchi programma tuzilsin.
+let son = +prompt("sekundni kiriting");
+let minut = Math.trunc(son / 60);
+
+console.log("kun boshidan boshlab  " + minut + "  minut otdi  ");
 
 //Integer10. Kun boshidan boshlab N sekund vaqt o`tti. Kun boshidan boshlab qancha soat va sekund o'tganini aniqlovchi programma tuzilsin.
