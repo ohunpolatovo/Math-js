@@ -26,16 +26,22 @@
 //Integer4. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
 //Input: 123
 //Output: 213
-let son = +prompt("uch honali son kiriting");
-let yuzlar = Math.trunc(son / 100);
-let onlar = Math.trunc((son / 10) % 10);
-let birlik = Math.trunc(son % 10);
-let teskari = onlar * 100 + yuzlar * 10 + birlik;
-console.log("kiritilgan son   " + teskari);
+//let son = +prompt("uch honali son kiriting");
+//let yuzlar = Math.trunc(son / 100);
+//let onlar = Math.trunc((son / 10) % 10);
+//let birlik = Math.trunc(son % 10);
+//let teskari = onlar * 100 + yuzlar * 10 + birlik;
+//console.log("kiritilgan son   " + teskari);
 
 //Integer5. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan birliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
 //Input: 123
 //Output: 132
+//let son = +prompt("uch honali son kiriting");
+//let yuzlar = Math.trunc(son / 100);
+//let onlar = Math.trunc((son / 10) % 10);
+//let birlik = Math.trunc(son % 10);
+//let teskari = yuzlar * 100 + birlik * 10 + onlar;
+//console.log(teskari);
 
 //Integer6. 999 dan katta bo`lgan son berilgan. Bir marta bo`lib butunni va bo`lib qoldiqni olish operatsiyasidan foydalanib berilgan sonni mingliklar xonasidagi sonni aniqlovchi programma tuzilsin.
 //Input: 98123
