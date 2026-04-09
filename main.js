@@ -26,6 +26,12 @@
 //Integer4. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
 //Input: 123
 //Output: 213
+let son = +prompt("uch honali son kiriting");
+let yuzlar = Math.trunc(son / 100);
+let onlar = Math.trunc((son / 10) % 10);
+let birlik = Math.trunc(son % 10);
+let teskari = onlar * 100 + yuzlar * 10 + birlik;
+console.log("kiritilgan son   " + teskari);
 
 //Integer5. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan birliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
 //Input: 123
