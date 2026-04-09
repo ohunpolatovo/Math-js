@@ -16,6 +16,12 @@
 //console.log("Raqamlar yig'indisi: " + yigindi);
 //====================================================================================
 //Integer3. Uch xonali son berilgan. Uning raqamlarini teskari tartibda yozishdan hosil bo`lgan sonni aniqlovchi program tuzilsin.
+//let son = +prompt("uch honali son kiriting");
+//let yuzlar = Math.trunc(son / 100);
+//let onliklar = Math.trunc((son / 10) % 10);
+//let birliklar = son % 10;
+//let teskariSon = birliklar * 100 + onliklar * 10 + yuzlar;
+//console.log("kiritilgan son:   " + son +  "teskari son:" + teskariSon);
 
 //Integer4. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
 //Input: 123
