@@ -46,9 +46,9 @@
 //Integer6. 999 dan katta bo`lgan son berilgan. Bir marta bo`lib butunni va bo`lib qoldiqni olish operatsiyasidan foydalanib berilgan sonni mingliklar xonasidagi sonni aniqlovchi programma tuzilsin.
 //Input: 98123
 //Output: 8
-let son = +prompt("son kirtiing");
-let natija = Math.trunc(son / 1000) % 10;
-console.log("Minglik xonasidagi son  " + natija);
+//let son = +prompt("son kirtiing");
+//let natija = Math.trunc(son / 1000) % 10;
+//console.log("Minglik xonasidagi son  " + natija);
 
 //1 minut = 60 s
 //1 soat = 60 minut
@@ -56,6 +56,9 @@ console.log("Minglik xonasidagi son  " + natija);
 //1 sutka = 24 soat
 
 //Integer7. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha minut to'la o`tganligini aniqlovchi programma tuzilsin.
+//let N = +prompt("sekundni kiriting");
+//let natija = Math.trunc(N / 60);
+//console.log("kun boshidan boshlab  " + natija + "  minut otdi");
 
 //Integer8. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha to'la soat o`tganligini aniqlovchi programma tuzilsin.
 
